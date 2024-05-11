@@ -1,13 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #222831;
+  background-color: #05070f;
   color: black;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: black;
+ 
+  background-color: #0d1d36;
   padding: 10px 0;
 }
 
@@ -29,14 +30,17 @@ nav {
 
 .div {
   margin: 10px;
-  background-color: #31363f;
+  background-color:#222831;
   border: 1px solid black;
   height: 85vh;
   padding: 10px;
   border-radius: 5px;
   min-width: 400px;
 }
-
+.left-div h3{
+  color:#ffffff;
+  margin:0;
+}
 .left-div ul {
   list-style-type: none;
   padding: 0;
@@ -59,14 +63,14 @@ nav {
 
 .middle-div h3 {
   margin-top: 0px;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 10px;
 }
 
 .middle-div textarea {
   height: 300px;
-
-  color: #ddd;
+  background-color: #000000;
+  color: #000000;
   border: 1px solid #666;
   border-radius: 5px;
   padding: 10px;
@@ -108,12 +112,16 @@ footer {
 }
 
 .wrapper .title {
-  background: #007bff;
+  background:  #0d1d36;
   color: white;
   line-height: 2.5;
   border-radius: 5px 5px 0 0;
   text-align: center;
   font-size: 20px;
+}
+
+.wrapper .title h3 {
+  margin:0;
 }
 
 .wrapper .box {
@@ -129,7 +137,7 @@ footer {
 }
 
 .wrapper .box .item .icon {
-  background: #007bff;
+  background: #0d1d36;
   color: white;
   width: 40px;
   height: 40px;
@@ -139,7 +147,7 @@ footer {
 }
 
 .wrapper .box .item .msg {
-  background: #007bff;
+  background: #0d1d36;
   color: white;
   border-radius: 10px;
   width: 150px;
@@ -185,22 +193,22 @@ footer {
 }
 
 .wrapper .typing-area .input-field input:focus {
-  border-color: #007bff;
+  border-color:  #0d1d36;
 }
 
 .wrapper .typing-area .input-field button {
   background: transparent;
-  border: 1px solid #007bff;
+  border: 1px solid  #0d1d36;
   padding: 5px 10px;
   border-radius: 3px;
-  color: #007bff;
+  color: #0d1d36;
   outline: none;
   cursor: pointer;
   transition: 0.3s all ease;
 }
 
 .wrapper .typing-area .input-field button:hover {
-  background: #007bff;
+  background:  #0d1d36;
   color: white;
 }
 
