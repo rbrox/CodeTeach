@@ -34,10 +34,7 @@ nav {
   height: 85vh;
   padding: 10px;
   border-radius: 5px;
-}
-
-.left-div {
-  background-color: ;
+  min-width: 400px;
 }
 
 .left-div ul {
@@ -56,8 +53,8 @@ nav {
 }
 
 .middle-div {
-  flex: 2;
   margin: 10px;
+  min-width: 750px;
 }
 
 .middle-div h3 {
@@ -68,7 +65,7 @@ nav {
 
 .middle-div textarea {
   height: 300px;
-  background-color: black;
+
   color: #ddd;
   border: 1px solid #666;
   border-radius: 5px;
@@ -108,11 +105,6 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
-
-.wrapper {
-  max-width: 1060px; /* Adjust the maximum width */
-  margin: 0 auto; /* Center the wrapper horizontally */
 }
 
 .wrapper .title {
