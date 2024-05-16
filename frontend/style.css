@@ -7,7 +7,6 @@ body {
 }
 
 header {
- 
   background-color: #0d1d36;
   padding: 10px 0;
 }
@@ -30,16 +29,16 @@ nav {
 
 .div {
   margin: 10px;
-  background-color:#222831;
+  background-color: #222831;
   border: 1px solid black;
   height: 85vh;
   padding: 10px;
   border-radius: 5px;
   min-width: 400px;
 }
-.left-div h3{
-  color:#ffffff;
-  margin:0;
+.left-div h3 {
+  color: #ffffff;
+  margin: 0;
 }
 .left-div ul {
   list-style-type: none;
@@ -112,7 +111,7 @@ footer {
 }
 
 .wrapper .title {
-  background:  #0d1d36;
+  background: #0d1d36;
   color: white;
   line-height: 2.5;
   border-radius: 5px 5px 0 0;
@@ -121,7 +120,7 @@ footer {
 }
 
 .wrapper .title h3 {
-  margin:0;
+  margin: 0;
 }
 
 .wrapper .box {
@@ -193,12 +192,12 @@ footer {
 }
 
 .wrapper .typing-area .input-field input:focus {
-  border-color:  #0d1d36;
+  border-color: #0d1d36;
 }
 
 .wrapper .typing-area .input-field button {
   background: transparent;
-  border: 1px solid  #0d1d36;
+  border: 1px solid #0d1d36;
   padding: 5px 10px;
   border-radius: 3px;
   color: #0d1d36;
@@ -208,7 +207,7 @@ footer {
 }
 
 .wrapper .typing-area .input-field button:hover {
-  background:  #0d1d36;
+  background: #0d1d36;
   color: white;
 }
 
